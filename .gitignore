@@ -3,3 +3,4 @@ parcels_example_data/*
 !parcels_example_data/get_example_data.py
 parcels_tutorials/*
 !parcels_tutorials/get_tutorial_notebooks.sh
+*.zarr
