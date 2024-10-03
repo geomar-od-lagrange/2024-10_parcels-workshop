@@ -22,3 +22,10 @@ docker run --rm -it -p 8888:8888 -v $PWD:/work -w /work quay.io/willirath/parcel
 cd parcels_example_data/
 ./get_example_data.py
 ```
+
+## Get all parcels tutorial notebooks
+
+```shell
+cd parcels_tutorials/
+./get_tutorial_notebooks.sh
+```
