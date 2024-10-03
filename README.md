@@ -15,3 +15,10 @@ On an new Macbook or other ARM machines:
 docker pull --platform=linux/amd64 quay.io/willirath/parcels-container:2024.10.03-921b2b0
 docker run --rm -it -p 8888:8888 -v $PWD:/work -w /work quay.io/willirath/parcels-container:2024.10.03-921b2b0
 ```
+
+## Get example data
+
+```shell
+cd parcels_example_data/
+./get_example_data.py
+```
